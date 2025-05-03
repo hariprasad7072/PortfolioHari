@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
-import profilePhoto from '../profilephoto.jpeg'; // adjust if path differs
+import profilePhoto from '../assets/profilephoto.jpeg';
+ // adjust if path differs
 
 const Hero: React.FC = () => {
   const [isMounted, setIsMounted] = useState(false);
