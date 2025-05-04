@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
-import profilePhoto from '../assets/profilephoto.jpeg';
+import profilePhoto from '../assets/Profilephoto.jpeg';
  // adjust if path differs
 
 const Hero: React.FC = () => {
